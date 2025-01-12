@@ -15,7 +15,6 @@ dependencies:
   flutter_web_plugins:
     sdk: flutter
   plugin_platform_interface: ^2.1.7
-  web: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -50,9 +49,6 @@ flutter:
         pluginClass: HoldableButtonPlugin
       windows:
         pluginClass: HoldableButtonPluginCApi
-      web:
-        pluginClass: HoldableButtonWeb
-        fileName: holdable_button_web.dart
 
   # To add assets to your plugin package, add an assets section, like this:
   # assets:
