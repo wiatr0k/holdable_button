@@ -43,4 +43,5 @@ android {
     defaultConfig {
         minSdkVersion 16
     }
+    namespace 'gharooni.mahdi.holdable_button'
 }
